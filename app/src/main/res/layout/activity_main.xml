@@ -7,17 +7,15 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
         android:fontFamily="sans-serif-thin"
-        app:layout_constraintLeft_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="parent"
-        app:layout_constraintRight_toLeftOf="parent"
-        app:layout_constraintBottom_toTopOf="parent"
-        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:text="TextView"
         android:textAlignment="center"
-        tools:text="Animate Branded Launch Screen"
-        tools:ignore="MissingConstraints" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        tools:text="Animate Branded Launch Screen" />
 </androidx.constraintlayout.widget.ConstraintLayout>
